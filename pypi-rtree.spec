@@ -4,7 +4,7 @@
 #
 Name     : pypi-rtree
 Version  : 1.0.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/0c/fd/06d60621622952ba11155416128ef62f1690ae7ca710a10a49961786c05a/Rtree-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0c/fd/06d60621622952ba11155416128ef62f1690ae7ca710a10a49961786c05a/Rtree-1.0.0.tar.gz
 Summary  : R-Tree spatial index for Python GIS
