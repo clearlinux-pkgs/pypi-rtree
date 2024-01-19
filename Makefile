@@ -1,5 +1,5 @@
 PKG_NAME := pypi-rtree
-URL = https://files.pythonhosted.org/packages/98/37/5dd86f8be05dbf6ab1be9817958ecd2dafc6913639a511ad6f71365f1c3e/Rtree-1.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/fe/40/55b099ab3b729d6a86103e2619ba904ab1138d0729a7c585ae5e0a722f97/Rtree-1.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
