@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : pypi-rtree
-Version  : 1.3.0
-Release  : 26
-URL      : https://files.pythonhosted.org/packages/6e/79/44fdc619e87bd7b5388f76418719bd8b99de5565475f74a2e0d82b401062/rtree-1.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/6e/79/44fdc619e87bd7b5388f76418719bd8b99de5565475f74a2e0d82b401062/rtree-1.3.0.tar.gz
+Version  : 1.4.0
+Release  : 27
+URL      : https://files.pythonhosted.org/packages/18/b8/0091f020acafcb034daa5b062f0626f6a73c7e0d64826af23861390a9585/rtree-1.4.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/18/b8/0091f020acafcb034daa5b062f0626f6a73c7e0d64826af23861390a9585/rtree-1.4.0.tar.gz
 Summary  : R-Tree spatial index for Python GIS
 Group    : Development/Tools
 License  : MIT
@@ -26,7 +26,7 @@ BuildRequires : pypi(wheel)
 %description
 # Rtree: Spatial indexing for Python
 ![Build](https://github.com/Toblerity/rtree/workflows/Build/badge.svg)
-[![PyPI version](https://badge.fury.io/py/Rtree.svg)](https://badge.fury.io/py/Rtree)
+[![PyPI version](https://badge.fury.io/py/rtree.svg)](https://badge.fury.io/py/rtree)
 
 %package license
 Summary: license components for the pypi-rtree package.
@@ -56,13 +56,13 @@ python3 components for the pypi-rtree package.
 
 
 %prep
-%setup -q -n rtree-1.3.0
-cd %{_builddir}/rtree-1.3.0
+%setup -q -n rtree-1.4.0
+cd %{_builddir}/rtree-1.4.0
 pushd ..
-cp -a rtree-1.3.0 buildavx2
+cp -a rtree-1.4.0 buildavx2
 popd
 pushd ..
-cp -a rtree-1.3.0 buildapx
+cp -a rtree-1.4.0 buildapx
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740085717
+export SOURCE_DATE_EPOCH=1741286728
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
